@@ -1,0 +1,28 @@
+{
+  "name": "veggie-trail",
+  "version": "1.0.0",
+  "description": "The monorepo for all moving parts of Veggie Trail",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veggietrail/monorepo.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "urban",
+    "foraging",
+    "mobile",
+    "app",
+    "ios",
+    "android"
+  ],
+  "author": "Rodolfo Dalcin Perottoni",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/veggietrail/monorepo/issues"
+  },
+  "homepage": "https://github.com/veggietrail/monorepo#readme",
+  "packageManager": "yarn@4.5.1"
+}
